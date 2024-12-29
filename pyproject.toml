@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "research-assistant"
+version = "0.1.0"
+description = "Multi-agent research assistant"
+authors = ["Elliot Steene e.steene@hotmail.co.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-core = "^0.3.28"
+langgraph = "^0.2.60"
+langchain-anthropic = "^0.3.1"
+tavily-python = "^0.5.0"
+jupyterlab-lsp = "^5.1.0"
+jedi-language-server = "^0.42.0"
+ipykernel = "^6.29.5"
+jupyter = "^1.1.1"
+pydantic = "^2.10.4"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
